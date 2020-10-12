@@ -3,6 +3,16 @@ package computer;
 public class harddisk {
     private int amount;
     private int speed;
+
+    public harddisk(int amount, int speed) {
+        this.amount = amount;
+        this.speed = speed;
+    }
+
+    public harddisk() {
+
+    }
+
     int getAmount(){
         return amount;
     }

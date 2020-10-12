@@ -1,8 +1,17 @@
 package computer;
 
 class pc {
+    public pc(computer.cpu cpu, harddisk hd) {
+        this.cpu = cpu;
+        this.hd = hd;
+    }
+
     private cpu cpu;
     private harddisk hd;
+
+    public pc() {
+
+    }
 
     void setCpu(cpu cpu) {
         this.cpu = cpu;

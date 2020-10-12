@@ -1,6 +1,7 @@
 package computer;
 
 public class test {
+
     public static void  main(String[] args){
         cpu cpu = new cpu();
         harddisk hd = new harddisk();
