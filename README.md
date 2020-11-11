@@ -13,7 +13,7 @@ class harddisk {
     private int amount;
     private int speed;
 ```
-##3.核心方法
+### 核心方法
 
 ```
 1. void setCpu(cpu cpu){
@@ -27,14 +27,14 @@ class harddisk {
 2. cpu cpu = new cpu();
         harddisk hd = new harddisk();
 ```
-##5.实验结果
+## 3.实验结果
 ```
 cpu's speed is 2200
 this's cpu name is AMD 
 harddisk's capacity is 200
 harddisk's speed was 5400
 ```
-##6.实验感想
+## 4.实验感想
 1. 通过这次实验学习到了public,private,default的不同
 2. 练习了使用IntelliJ IDEA
 3. 学习了Markdown语法
